@@ -1,0 +1,108 @@
+.error_message {
+  color: red;
+}
+.form {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 30%;
+  background-color: #f8f6f4;
+  padding-left: 30px;
+  float: left;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+
+.field {
+  width: 82%;
+  padding: 8px 10px;
+
+  margin-left: 20px;
+}
+
+.button {
+  width: 80%;
+  padding: 8px 10px;
+  margin: 10px 80px 20px 45px;
+}
+
+table {
+  float: right;
+  margin-right: 37px;
+  border-collapse: collapse;
+  width: 63%;
+}
+th {
+  height: 35px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #f8f6f4;
+}
+.radio {
+  margin-left: 12px;
+  margin-bottom: 14px;
+}
+.hobby {
+  margin-left: 15px;
+  margin-bottom: 14px;
+}
+.date {
+  margin-left: 27px;
+  width: 81%;
+}
+.country {
+  margin-left: 8px;
+  width: 86%;
+}
+.state {
+  margin-left: 27px;
+  width: 86%;
+}
+.city {
+  margin-left: 30px;
+  width: 86%;
+}
+.sort {
+  float: right;
+  margin-right: 35px;
+  height: 27px;
+  width: 150px;
+}
+.search {
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+.icon {
+  font-size: 17px;
+}
+
+.tr {
+  background-color: #f8f6f4;
+}
+.search input {
+  height: 21px;
+}
+
+.update {
+  display: none;
+  float: left;
+  width: 200px;
+  height: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.cancel {
+  display: none;
+  float: right;
+  width: 200px;
+  height: 30px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
