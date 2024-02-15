@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Jquery Demo</title>
+  </head>
+
+  <body name="body">
+    <div class="form">
+      <form name="myform">
+        <label for="name">Name: </label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+          class="field"
+        />
+        <div name="name_error" class="error_message"></div>
+        <br />
+
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          class="field"
+        />
+        <div name="email_error" class="error_message"></div>
+        <br />
+
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" value="Male" class="radio" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="Female" />
+        <label for="female">Female</label>
+        <div name="gender_error" class="error_message"></div>
+        <br />
+
+        <label for="hobbies">Hobby: </label>
+        <input type="checkbox" name="hobby" value="Singing" class="hobby" />
+        <label for="singing">Singing</label>
+        <input type="checkbox" name="hobby" value="Travelling" />
+        <label for="travelling">Travelling</label>
+        <input type="checkbox" name="hobby" value="Reading" />
+        <label for="reading">Reading</label>
+        <div name="hobby_error" class="error_message"></div>
+        <br />
+
+        <label for="dob">DOB: </label>
+        <input
+          type="date"
+          name="dob"
+          placeholder="Enter your age"
+          class="field date"
+        />
+        <div name="dob_error" class="error_message"></div>
+        <br />
+
+        <label for="country">Country: </label>
+        <select name="country" class="field country">
+          <option value="select" selected>select</option>
+        </select>
+        <div name="country_error" class="error_message"></div>
+        <br />
+
+        <label for="state">State: </label>
+        <select name="state" class="field state"></select>
+        <div name="state_error" class="error_message"></div>
+        <br />
+
+        <label for="city">City: </label>
+        <select name="city" class="field city"></select>
+        <div name="city_error" class="error_message"></div>
+        <br />
+
+        <button value="submit" name="submit" id="submit" class="button">
+          Submit
+        </button>
+        <button value="update" name="update" id="update" class="update">
+          Update
+        </button>
+        <button value="cancel" name="cancel" id="cancel" class="cancel">
+          Cancel
+        </button>
+      </form>
+    </div>
+
+    <div>
+      <select name="sort" value="sort" class="sort">
+        <option value="select">Select</option>
+        <option value="ascending">Ascending</option>
+        <option value="descending">Descending</option>
+      </select>
+    </div>
+
+    <div class="search">
+      <input type="text" name="search" placeholder="Search" />
+    </div>
+
+    <div>
+      <table border="2px" class="table">
+        <thead>
+          <tr class="tr">
+            <th>Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Hobby</th>
+            <th>DOB</th>
+            <th>Country</th>
+            <th>State</th>
+            <th>City</th>
+            <th>Delete</th>
+            <th>Modify</th>
+          </tr>
+        </thead>
+        <tbody name="table_body"></tbody>
+      </table>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
